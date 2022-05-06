@@ -4,6 +4,7 @@ from datetime import datetime
 from helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+import OS
 
 master_user = os.environ.get("MASTER_USERNAME", None)
 
